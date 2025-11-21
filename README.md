@@ -14,6 +14,12 @@ git clone git@github.com:KnjazMiljan/nuxt3-starter.git nuxt-3-fundamentals && cd
 
 ```
 
+Run a command inside the container:
+```bash
+# this one will create a page inside the pages/movies folder
+docker exec -ti <container-name> npx nuxi add page movies/index
+```
+
 ## Production
 
 Build the application for production:
