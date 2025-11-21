@@ -4,38 +4,14 @@ Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduct
 
 ## Setup
 
-Make sure to install dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
 ## Development Server
 
-Start the development server on `http://localhost:3000`:
+Install dependencies and start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
 
-# pnpm
-pnpm dev
+git clone git@github.com:KnjazMiljan/nuxt3-starter.git nuxt-3-fundamentals && cd nuxt-3-fundamentals && docker compose up --build
 
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
 ## Production
