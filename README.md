@@ -13,6 +13,11 @@ Install dependencies and start the development server on `http://localhost:3000`
 git clone git@github.com:KnjazMiljan/nuxt3-starter.git nuxt-3-fundamentals && cd nuxt-3-fundamentals && docker compose up --build
 
 ```
+Run this command in order to avoid confusion for Webstorm:
+
+```bash
+docker run --rm -v .:/app -w /app node:20-bullseye sh -c "npm install"
+```
 
 Run a command inside the container:
 ```bash
